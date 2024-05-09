@@ -22,11 +22,16 @@ form{
     background-color: #ffffffd8;
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 }
-form >h1{
+fieldset{
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+legend{
     color: #302d2dea;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 2rem;
     text-transform: uppercase;
 }
 
